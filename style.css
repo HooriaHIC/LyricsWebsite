@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* if you are using vw & vh vaues than the properties above are necessary otherwise you'll get a weird border on the body of the page */
+  }
+  
+  
+  header {
+    height: 100vh;
+    width: 99vw;
+    background: url(images/landing-page.jpg);
+    background-size: cover /* using background size, you can keep the image 100vh but the header 130vh */ ;
+    background-repeat: no-repeat /* this is necessary if you are keeping the height 130vh or something more than the window height */ ;
+    background-position: center;
+    background-clip: cover;
+    position: relative;
+  }
+  
+  svg{
+    position: absolute;
+    width: 119vw /* added the width of 120 because the svg's edges aren't straight if you make them straight then just keep the width 100vw */ ;
+    left: -20vw /* this is not necessary I suggest you to make the edges of the svg straight and don't use -left values or -right*/;
+    top: 80vh;
+  }
+  
+  @media(max-width: 600px){
+    svg{
+      top: 70vh;
+    }
+  }
+
+   .background-paper{
+    position: absolute;
+    top: 175vh;
+    width: 99vw;
+  }
+  body{
+    background: url(images/Background.jpg);
+  
+bottom: 100vh;
+   
+  }
+
+ 
