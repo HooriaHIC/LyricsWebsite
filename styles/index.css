@@ -1,0 +1,281 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    height: 100%;
+    overflow-x: hidden;
+    background: linear-gradient(0.25turn, #272B6A, #6B45A6, #272B6A);
+}
+.Mountain
+{
+    background: url("../images/Website\ Xxxtentacion\ –\ 4.svg") fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 200px;
+}
+.Welcome
+{
+    font-size: 1.5em;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.Team
+{
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 1%;
+    padding-bottom: 150px;
+    background-image: url("../images/background-paper-1.svg");
+    background-size: cover;
+}
+.Start
+{
+    font-size: 1.5em;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Contact
+{
+    background: rgb(116, 114, 114);
+    display: block;
+    text-align: center;
+}
+.Contact img
+{
+    max-width: 80%;
+    padding-top: 25px;
+    padding-bottom: 150px;
+}
+.Team h1
+{
+    font-size: 6em;
+    padding-bottom: 10px;
+}
+.Team h2
+{
+    color: white;
+    font-size: 3em;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.ourGroup, .WelAlign, .Start
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ourGroup div
+{
+    margin: 0 auto;
+    max-width: 200px;
+    text-align: center;
+}
+.WelAlign div, .Start div
+{
+    margin: 0 auto;
+    align-self: center;
+}
+.WelAlign div object
+{
+    max-width: 120%;
+    max-height: auto;
+}
+.ourGroup div p
+{
+    font-size: 1.5em;
+    margin-top: -20px;
+    height: 110px;
+}
+.ourGroup div h1
+{
+    font-size: 2.5em;
+    margin-top: -10px;
+}
+.ourGroup div img
+{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    transition-duration: 0.3s;
+}
+.ourGroup div img:hover
+{
+    width: 165px;
+    border-radius: 25%;
+    transition-duration: 0.3s;
+}
+.classic
+{
+    display: inline-block;
+    border: solid 5px;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    font-size: 1.25em;
+    transition: 0.3s;
+}
+.classic:hover
+{
+    background-color: white;
+    color:#5b5a5c;
+    border: solid 5px white;
+    transition: 0.3s;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+p, h1
+{
+    color: white;
+}
+.Mountain h2
+{
+    color: rgb(180, 50, 40);
+    font-size: 6em;
+}
+.Mountain a
+{
+    font-size: 4em;
+    margin-bottom: 250px;
+}
+.Mountain img
+{
+    display: flex;
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    transform: translateY(10%);
+}
+.Welcome h1
+{
+    font-size: 3em;
+}
+.Welcome p
+{
+    font-size: 0.9em;
+}
+.wLeft, .sLeft
+{
+    max-width: 40%;
+    margin: 0 auto;
+    align-self: center;
+}
+.wRight, .sRight
+{
+    max-width: 60%;
+    margin: 0 auto;
+    align-self: center;
+}
+.wRight p
+{
+    max-width: 60%;
+    margin: 0 auto;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.vague1
+{
+    position: relative;
+    width: 100%;
+    transform: translateY(10%);
+}
+.vague2
+{
+    position: relative;
+    width: 100%;
+    transform: translateY(-10%);
+}
+.discover, .begin
+{
+    display: inline-block;
+    border: solid 5px;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    color: white;
+    font-size: 2em;
+    transition: 0.3s;
+}
+.discover:hover, .begin:hover
+{
+    background-color: white;
+    color:#59565c;
+    border: solid 5px white;
+    transition: 0.3s;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.topnav
+{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #b9babd;
+    overflow: hidden;
+    color: rgb(65, 65, 65);
+}
+/* Style the links inside the navigation bar */
+.topnav a
+{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5rem;;
+}
+/* Change the color of links on hover */
+.topnav a:hover
+{
+background-color: white;
+color: black;
+}
+/* Add an active class to highlight the current page */
+.topnav a.active
+{
+background-color:goldenrod;
+color: black;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon
+{
+display: none;
+}
+.interactive
+{
+    display: inline-block;
+    border: solid 5px;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(126, 49, 36);
+    font-size: 1.25em;
+    transition: 0.3s;
+}
+.interactive:hover
+{
+    background-color: gold;
+    color:#545257;
+    border: solid 5px gold;
+    transition: 0.3s;
+    padding-left: 30px;
+    padding-right: 30px;
+}

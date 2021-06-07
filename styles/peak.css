@@ -1,0 +1,59 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    height: 100%;
+}
+.mountain
+{
+    position: fixed;
+    left: 50vw;
+    transform: translateX(-50%);
+    width: 100vw;
+    bottom: 0vh;
+}
+.etude, .mission, .competence, .definition
+{
+    position: fixed;
+    bottom: 0vh;
+    cursor: pointer;
+}
+.etude
+{
+    left: 42.2vw;
+    padding-right: 8vw;
+    padding-top: 5vw;
+    transform: translateY(-29vw);
+}
+.mission
+{
+    left: 40vw;
+    padding-right: 13vw;
+    padding-top: 7.5vw;
+    transform: translateY(-21vw);
+}
+.competence
+{
+    left: 34vw;
+    padding-right: 25vw;
+    padding-top: 10vw;
+    transform: translateY(-10.5vw);
+}
+.definition
+{
+    left: 27vw;
+    padding-right: 40vw;
+    padding-top: 10vw;
+}
+.textbox
+{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 3vw;
+    padding: 1vw;
+    left: 72vw;
+    bottom: 15vw;
+    width: 25vw;
+    height: 25vw;
+}
