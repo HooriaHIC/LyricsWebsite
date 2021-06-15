@@ -1,8 +1,9 @@
+*
+
 body
 {
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
-    height: 100%;
     overflow-x: hidden;
     background: #FBFBFB;
 }
@@ -12,9 +13,10 @@ body
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
     margin: 0 auto;
-    text-align: center;
     padding-top: 200px;
+    text-align: center;
 }
 .Welcome
 {
@@ -37,14 +39,6 @@ body
     background-size: cover;
 }
 
-.Start
-{
-    font-size: 1.5em;
-    padding-left: 10%;
-    padding-right: 5%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
 .Contact
 {
     background: rgb(116, 114, 114);
@@ -57,14 +51,7 @@ body
     padding-top: 25px;
     padding-bottom: 150px;
 }
-.website-xxxtentacion-1 .sky {
-  height: 3115px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 649px;
-  width: 2993px;
-}
+
 .Team h1
 {
     font-size: 6em;
@@ -78,6 +65,15 @@ body
     margin: 0 auto;
     padding-top: 15px;
     padding-bottom: 30px;
+}
+
+.website-xxxtentacion-1 .sky {
+  height: 3115px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 649px;
+  width: 2993px;
 }
 .ourGroup, .WelAlign, .Start
 {
@@ -177,17 +173,19 @@ p, h1
 {
     font-size: 0.9em;
 }
-.wLeft, .sLeft
+.wLeft
 {
     max-width: 40%;
     margin: 0 auto;
     align-self: center;
+    flex: 1;
 }
-.wRight, .sRight
+.wRight
 {
     max-width: 60%;
     margin: 0 auto;
     align-self: center;
+    flex: 1;
 }
 .wRight p
 {
@@ -290,3 +288,134 @@ display: none;
     padding-left: 30px;
     padding-right: 30px;
 }
+
+.Start
+{
+    font-size: 1.5em;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+/* Explication Section */
+.Explication{
+    display: flex;
+}
+
+.Explication .sLeft{
+    flex: 1;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+}
+
+.Explication .sLeft h1{
+    font-size: 8em;
+    text-align: center;
+    font-family: 'Playflair Display', serif;
+    color: #fff;
+}
+
+.Explication .sRight{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+/* Biograhy section */
+
+.blackPaper{
+    width: 120vw;
+    position: absolute;
+    z-index: 0;
+    left: -10vw;
+}
+
+.biography{
+    margin-top: -40vh;
+    min-height: 100vh;
+    position: relative;
+   min-width: 100vw;
+}
+
+.biography .contentOverlay{
+    z-index: 1;
+    width: 100vw;
+    position: absolute;
+    padding-top: 50px;
+}
+
+.biography .contentOverlay h1{
+    font-size: 10em;
+    text-align: center;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+
+.biography .contentOverlay .row{
+    display: flex;
+    width: 100%;
+}
+
+.biography .contentOverlay .row .column{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+.biography .contentOverlay .row .column p{
+    font-size: 1.5em;
+    color: white;
+}
+
+.biography .contentOverlay .row .column .one{
+    height: 400px;
+}
+
+/* Project Info Section */
+
+.paperProject{
+    width: 120vw;
+    position: absolute;
+    z-index: 0;
+    left: -10vw;
+}
+
+.projectInfo{
+    margin-top: 30vh;
+   height: 170vh;
+    position: relative;
+   overflow: hidden;
+}
+
+.projectInfo .contentOverlay{
+    z-index: 1;
+    width: 100vw;
+    position: absolute;
+    padding-top: 30vh;
+}
+
+.projectInfo .contentOverlay h1{
+    font-size: 10em;
+    text-align: center;
+    font-family: 'Playflair Display', serif;
+    color: #2e2e2e;
+}
+
+.projectInfo .contentOverlay .row{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    flex-direction: column;
+}
+
+.projectInfo .contentOverlay .row p{
+    font-size: 1.5em;
+    color: #2e2e2e;
+}
+
