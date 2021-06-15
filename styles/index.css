@@ -6,8 +6,11 @@ body
     margin: 0 auto;
     overflow-x: hidden;
     background: #FBFBFB;
+  
 }
-.Mountain
+
+
+.Home
 {
     background: url("../images/Website\ Xxxtentacion\ –\ 4.svg") fixed;
     background-position: top center;
@@ -18,7 +21,7 @@ body
     padding-top: 200px;
     text-align: center;
 }
-.Welcome
+.Description
 {
     font-size: 1.5em;
     text-align: center;
@@ -27,7 +30,7 @@ body
     padding-top: 3%;
     padding-bottom: 3%;
 }
-.Team
+.Lyrics
 {
     text-align: center;
     margin: 0 auto;
@@ -37,28 +40,29 @@ body
     padding-bottom: 150px;
     background-image: url("../images/background-paper-1.svg");
     background-size: cover;
+    font-family: 'Playflair Display', serif;
 }
 
-.Contact
+.Bio
 {
     background: rgb(116, 114, 114);
     display: block;
     text-align: center;
 }
-.Contact img
+.Bio img
 {
     max-width: 80%;
     padding-top: 25px;
     padding-bottom: 150px;
 }
 
-.Team h1
+.Lyrics h1
 {
     font-size: 6em;
     padding-bottom: 10px;
     color: #5b5a5c;
 }
-.Team h2
+.Lyrics h2
 {
     color: rgb(32, 32, 32);
     font-size: 3em;
@@ -147,17 +151,17 @@ p, h1
 {
     color: rgb(34, 34, 34);
 }
-.Mountain h2
+.Home h2
 {
     color: rgb(180, 50, 40);
     font-size: 6em;
 }
-.Mountain a
+.Home a
 {
     font-size: 4em;
-    margin-bottom: 250px;
+    margin-bottom: 320px;
 }
-.Mountain img
+.Home img
 {
     display: flex;
     margin: 0px auto;
@@ -165,11 +169,11 @@ p, h1
     height: auto;
     transform: translateY(10%);
 }
-.Welcome h1
+.Description h1
 {
     font-size: 3em;
 }
-.Welcome p
+.Description p
 {
     font-size: 0.9em;
 }

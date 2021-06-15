@@ -1,17 +1,17 @@
 $(document).ready(function() {
     $(".menu1").click(function() {
         $('html,body').animate({
-            scrollTop: $(".Mountain").offset().top},
+            scrollTop: $(".Home").offset().top},
             'slow');
     });
     $(".menu2").click(function() {
         $('html,body').animate({
-            scrollTop: $(".Welcome").offset().top},
+            scrollTop: $(".Description").offset().top},
             'slow');
     });
     $(".menu3").click(function() {
         $('html,body').animate({
-            scrollTop: $(".Team").offset().top},
+            scrollTop: $(".Lyrics").offset().top},
             'slow');
     });
     $(".menu4").click(function() {
@@ -21,7 +21,7 @@ $(document).ready(function() {
     });
     $(".menu5").click(function() {
         $('html,body').animate({
-            scrollTop: $(".Contact").offset().top},
+            scrollTop: $(".Bio").offset().top},
             'slow');
     });
 });
